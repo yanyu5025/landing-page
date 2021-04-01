@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" type="text/css" href="Animation/style.css">
+    <title>I.Save</title>
+     
+</head>
+<style>
+  .navigation{
+  padding-top:50px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-top:5%;
+  padding-right:8%;
+  font-size: 120%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:none;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:6.5%;
+  padding-top: 50px;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff; 
+}
+
+.video-container {
+
+z-index: -100;
+width:100%;
+height:100%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+.text1{
+    height:120px;   
+    background: #791FFF;
+    opacity: 0.8;
+    padding-top: 18%;
+    padding-left: 30px;
+    margin-left: 80px;
+    font-family:Arial;
+    font-size: 100px;
+    color: yellow;
+    }
+.text2{
+    padding-top: 0.2%;
+    color: aqua;
+    margin-left: 8%;
+    font-family:Arial;
+    font-size: 100px;
+    color: white;
+    }
+.text3{
+    padding-top: 1%;
+    margin-left: 8%;
+    font-family:Arial;
+    font-size: 24px;;
+    color: white;
+    }
+    
+.about{
+    font-family:Arial;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #3d3d3d;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 8%;
+    text-align: left;
+    
+    }
+.about-description{
+    font-weight: lighter;
+    line-height: 150%;
+    font-size: 24px;
+    padding-right: 22%;
+    }
+  
+.background1{
+  /*width: 150px;
+  height: 100px;
+  background-color: yellow;*/
+  
+  /*-ms-transform: rotate(-0deg); /* IE 9 */
+  transform: rotate(-00deg);
+  position: absolute;
+  padding-top:40%;
+  padding-left: 15%;
+}
+    
+.background2{
+
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(00deg);
+  position: absolute;
+  padding-top: 70%;
+  padding-left: 55%;
+}
+.background3{
+ 
+  transform: rotate(-00deg);
+  position: absolute;
+  padding-top:102%;
+  padding-left: 15%;
+}
+ .background4{
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(00deg);
+  position: absolute;
+  padding-top: 125%;
+  padding-left: 55%;
+}
+    
+.section{
+    font-family:Arial;
+    font-weight: bold;
+    color: #791FFF;
+    font-weight: lighter;
+    color: #791FFF;
+    line-height: 150%;
+    font-size: 22px;
+    }
+
+.charactor1{
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 8%;
+    margin-right: 7%;
+    } 
+ 
+.charactor2{
+    padding-right: 50%;
+    padding-left: 10%;
+    text-align: right;
+    padding-top: 10%;
+    margin-left: 7%;
+    }  
+.charactor3{    
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 10%;
+    margin-right: 7%;
+    }
+.charactor4{
+    padding-right: 50%;
+    padding-left: 5%;
+    text-align: right;
+    padding-top: 10%;
+    margin-left: 7%;
+    }
+.charactor5{
+    text-align: center;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 10%;
+    }
+.charactor6{
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 10%;
+    }
+#video-bg{
+  width:100%;
+ 
+}
+
+.portfolio-section{
+  margin-top:50%;
+}
+.tagline-left{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-right{
+  float:right;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-video{
+  width:75%;
+}
+
+.tagline-right-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:17%;
+font-family:Arial;
+ color:#fff;
+  width:290px;
+  font-size:40px;
+}
+
+.tagline-left-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:11%;
+font-family:Arial;
+ color:#fff;
+  width:375px;
+  font-size:40px;
+}
+}
+    </style>
+    
+
+<body>
+
+ 
+  <header>
+  <div class="header">
+    <nav class="navigation">
+      <a href="#" class="navbar-logo"><img src="images/I save logo_画板 1.png"></a>
+      <div class="navbar-right">
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <video autoplay loop muted id="video-bg">
+
+        <source src="video (2).mp4">
+
+      </video>
+    </div>
+
+    
+     <div class="text1" style="width: 1290px; height: 150px;"> The fairer price of </div>
+     <div class="text2"> car insurance for future</div>
+     <div class="text3"> Simple, straightforward car insurance that you pay by your driving distance.</div>
+  </div>
+  </header>
+
+<div class="background">
+    <div class="background1"><img src="images/fair price.jpg" style="width:33%; height: 33%;"></div>
+    <div class="background2"><img src="images/sustainablity.jpg" style="width: 75%; height: 75%;"></div> 
+    <div class="background3"><img src="images/robot.jpg" style="width: 35%; height: 35%;"></div> 
+    <div class="background4"><img src="images/fast.jpg" style="width: 65%; height: 65%;"></div> 
+</div>
+
+            <div id="canvasDiv"></div>
+
+<div class="about">
+    <h>ABOUT</h>
+    <a class="about-description"><p> I SAVE is a sustainble car insurance in Switzerland. It will charge everyone environment-friendly driver in a fairer premium. Traditional insurance doesn’t make sense if you don’t drive much. With us, a fixed cost covers your car while it’s parked, then you just pay for the distance you drive each month. I SAVE is not only going to help you to save money, but also to save the environment for youself and our later generations. </p></a>
+</div>
+
+<div class="section">
+    
+    <div class="charactor1">
+       <h1>Fairer Price</h1>
+       <p1>Pay for what you use and always be covered by fully comprehensive insurance. No claims Bonus protection comes as standard.</p1>
+    </div>
+    <div class="charactor2">
+        <h1>Sustainability</h1>
+        <p1>From the app, you will receive a roughly number of your CO2 consumption. You can decide yourself if you want to generate less CO2 emissions in order to have a better furture for living. Every month we will give a reward to the most evironment friendly driver, the one who generate less CO2 emissions. </p1>
+    </div>
+    <div class="charactor3">
+        <h1>Efficient than ever</h1>
+        <p1>You will have the faster service than ever when you submit a claim. You don’t need to submit many documents. 
+       With the support of AI technololy, the AI Robot will address your requirement from the database then get back to you immidiately.</p1>
+    </div>
+     <div class="charactor4">
+        <h1>Data projection</h1>
+        <p1>I SAVE need track the data of your driving distance and behaviors in order to offer you the fairer price. We promise we will not share your date with the third parties without your permission.</p1>
+    </div>
+    <div class="about">
+    <h>OUR MISSION</h>
+    <a class="about-description"><p> I SAVE is a sustainble car insurance in Switzerland. It will charge everyone environment-friendly driver in a fairer premium. Traditional insurance doesn’t make sense if you don’t drive much. With us, a fixed cost covers your car while it’s parked, then you just pay for the distance you drive each month. I SAVE is not only going to help you to save money, but also to save the environment for youself and our later generations. </p></a>
+</div>
+<div>
+  
+ <div class="portfolio-section">
+  <div class="tagline-left">
+    <div class="tagline-left-text">Total transparency.</div>
+    <video autoplay muted loop class="tagline-video">
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="tagline-right">
+    <div class="tagline-right-text">Easier to manage</div>
+    <video autoplay muted loop class="tagline-video">
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+<div class="contact">
+    <link ref="contact.html">
+    
+    </div>
+
+    </div>
+    </div>
+
+    </body>
+<script src="p5/p5.js"></script>
+     
+      <script>
+function setup() {
+const myCanvas = createCanvas(900, 900);
+    myCanvas.parent('canvasDiv');
+
+  strokeWeight(1);
+
+}
+
+function draw() {
+  clear();
+  stroke(121,33,255);
+  line(0, mouseY, width, mouseY,);
+  line(mouseX, 0, mouseX,height,);
+  ellipseColor = color(121,33,255);
+  ellipseColor.setAlpha(250 + 150 * sin(millis() / 1000));
+  fill(ellipseColor);
+  noStroke(0);
+  ellipse(mouseX, mouseY, 50 + 5 * sin(frameCount / 20));
+}
+
+
+    </script>
+</html>
+
+
+
