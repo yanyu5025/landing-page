@@ -4,239 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
+    
     <link rel="stylesheet" type="text/css" href="Animation/style.css">
-    <title>I.Save</title>
-     
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>I.Save</title> 
 </head>
-<style>
-  .navigation{
-  padding-top:50px;
-  padding-bottom:30px;
-  position:absolute;
-  top:0;
-  width:100%;
-  z-index:1;
-}
-
-.navbar-right{
-  float:right;
-  padding-top:5%;
-  padding-right:8%;
-  font-size: 120%;
-}
-
-.navbar-right a{
-  text-decoration:none;
-  padding:10px;
-  color: #fff;
-  font-family:Arial;
-  font-weight:none;
-}
-
-.navbar-right a:hover{
-  text-decoration:underline;
-}
-.navbar-logo{
-  padding-left:6.5%;
-  padding-top: 50px;
-  font-family:Arial;
-  font-size:30px;
-  font-weight:bold;
-  text-decoration:none;
-  color:#fff; 
-}
-
-.video-container {
-
-z-index: -100;
-width:100%;
-height:100%;
-overflow:hidden;
-position:absolute;
-top:0;
-left:0;
-}
-
-.text1{
-    height:120px;   
-    background: #791FFF;
-    opacity: 0.8;
-    padding-top: 18%;
-    padding-left: 30px;
-    margin-left: 80px;
-    font-family:Arial;
-    font-size: 100px;
-    color: yellow;
-    }
-.text2{
-    padding-top: 0.2%;
-    color: aqua;
-    margin-left: 8%;
-    font-family:Arial;
-    font-size: 100px;
-    color: white;
-    }
-.text3{
-    padding-top: 1%;
-    margin-left: 8%;
-    font-family:Arial;
-    font-size: 24px;;
-    color: white;
-    }
-    
-.about{
-    font-family:Arial;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #3d3d3d;
-    padding-top: 20%;
-    padding-left: 10%;
-    padding-right: 8%;
-    text-align: left;
-    
-    }
-.about-description{
-    font-weight: lighter;
-    line-height: 150%;
-    font-size: 24px;
-    padding-right: 22%;
-    }
-  
-.background1{
-  /*width: 150px;
-  height: 100px;
-  background-color: yellow;*/
-  
-  /*-ms-transform: rotate(-0deg); /* IE 9 */
-  transform: rotate(-00deg);
-  position: absolute;
-  padding-top:40%;
-  padding-left: 15%;
-}
-    
-.background2{
-
-  -ms-transform: rotate(0deg); /* IE 9 */
-  transform: rotate(00deg);
-  position: absolute;
-  padding-top: 70%;
-  padding-left: 55%;
-}
-.background3{
- 
-  transform: rotate(-00deg);
-  position: absolute;
-  padding-top:102%;
-  padding-left: 15%;
-}
- .background4{
-  -ms-transform: rotate(0deg); /* IE 9 */
-  transform: rotate(00deg);
-  position: absolute;
-  padding-top: 125%;
-  padding-left: 55%;
-}
-    
-.section{
-    font-family:Arial;
-    font-weight: bold;
-    color: #791FFF;
-    font-weight: lighter;
-    color: #791FFF;
-    line-height: 150%;
-    font-size: 22px;
-    }
-
-.charactor1{
-    padding-left: 50%;
-    padding-right: 10%;
-    padding-top: 8%;
-    margin-right: 7%;
-    } 
- 
-.charactor2{
-    padding-right: 50%;
-    padding-left: 10%;
-    text-align: right;
-    padding-top: 10%;
-    margin-left: 7%;
-    }  
-.charactor3{    
-    padding-left: 50%;
-    padding-right: 10%;
-    padding-top: 10%;
-    margin-right: 7%;
-    }
-.charactor4{
-    padding-right: 50%;
-    padding-left: 5%;
-    text-align: right;
-    padding-top: 10%;
-    margin-left: 7%;
-    }
-.charactor5{
-    text-align: center;
-    padding-left: 50%;
-    padding-right: 10%;
-    padding-top: 10%;
-    }
-.charactor6{
-    padding-left: 50%;
-    padding-right: 10%;
-    padding-top: 10%;
-    }
-#video-bg{
-  width:100%;
- 
-}
-
-.portfolio-section{
-  margin-top:50%;
-}
-.tagline-left{
-  float:left;
-  width:50%;
-  text-align:center;
-}
-
-.tagline-right{
-  float:right;
-  width:50%;
-  text-align:center;
-}
-
-.tagline-video{
-  width:75%;
-}
-
-.tagline-right-text{
- position:absolute;
- margin-top:9%;
- text-align:center;
- margin-left:17%;
-font-family:Arial;
- color:#fff;
-  width:290px;
-  font-size:40px;
-}
-
-.tagline-left-text{
- position:absolute;
- margin-top:9%;
- text-align:center;
- margin-left:11%;
-font-family:Arial;
- color:#fff;
-  width:375px;
-  font-size:40px;
-}
-}
-    </style>
-    
 
 <body>
 
+   
  
   <header>
   <div class="header">
@@ -256,7 +32,9 @@ font-family:Arial;
 
       </video>
     </div>
-
+    
+<script src="Animation/sketch.js"></script>
+  
     
      <div class="text1" style="width: 1290px; height: 150px;"> The fairer price of </div>
      <div class="text2"> car insurance for future</div>
@@ -326,11 +104,13 @@ font-family:Arial;
     </div>
 
     </body>
+    
 <script src="p5/p5.js"></script>
      
       <script>
+          
 function setup() {
-const myCanvas = createCanvas(1000, 1000);
+const myCanvas = createCanvas(displayWidth,displayHeight+1500 );
     myCanvas.parent('canvasDiv');
 
   strokeWeight(1);
@@ -348,8 +128,6 @@ function draw() {
   noStroke(0);
   ellipse(mouseX, mouseY, 50 + 5 * sin(frameCount / 20));
 }
-
-
     </script>
 </html>
 
