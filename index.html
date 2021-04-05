@@ -110,7 +110,12 @@
       <script>
           
 function setup() {
-const myCanvas = createCanvas(displayWidth,displayHeight+1500 );
+  var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+const myCanvas = createCanvas(displayWidth,height );
     myCanvas.parent('canvasDiv');
 
   strokeWeight(1);
