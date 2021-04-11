@@ -1,0 +1,89 @@
+  .navigation{
+  padding-top:50px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+  background: #791FFF;
+}
+
+.navbar-right{
+  float:right;
+  padding-top:5%;
+  padding-right:8%;
+  font-size: 120%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: white;
+  font-family:Arial;
+  font-weight:none;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:18%;
+  padding-top: 50px;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:white; 
+}
+
+
+
+.background1{
+    position: relative;
+    width: 80%;
+     -ms-transform: rotate(0deg); /* IE 9 */
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-0deg);
+   opacity: 0.09;
+  position: absolute;
+  padding-top:300px;
+  
+}
+.background2{
+position: absolute;
+  padding-top: 300px;
+  padding-left: 18%;
+}
+.container{
+    font-family:Arial;
+    font-size: 22px;
+    font-weight: bolder;
+    color:dimgray;
+    padding-top: 300px;
+    padding-left: 45%; 
+    padding-right: 15%;
+    } 
+.yanyu{
+   font-weight:lighter;
+   font-family:Arial;
+   text-align-last: left;
+   padding-left:50%;
+   padding-right:20%;
+   color: dimgray;
+   line-height: 160%;
+   font-size: 18px;  
+}
+.charactor2{
+   text-align: left;
+}
+.reason{
+   font-weight:lighter;
+   font-family:Arial;
+   text-align-last: left;
+   padding-left:50%;
+   padding-right:40%;
+   color: dimgray;
+   line-height: 160%;
+   font-size: 18px;  
+}
+
