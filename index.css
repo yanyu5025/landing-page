@@ -3,7 +3,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-  .navigation{
+.navigation{
   padding-top:50px;
   padding-bottom:30px;
   position:absolute;
@@ -41,7 +41,6 @@ body{
 }
 
 .video-container {
-
 z-index: -100;
 width:100%;
 height:100%;
@@ -50,7 +49,6 @@ position:absolute;
 top:0;
 left:0;
 }
-
 .text1{
     height:120px;   
     background: #791FFF;
@@ -60,8 +58,7 @@ left:0;
     margin-left: 80px;
     font-family:Arial;
     font-size: 100px;
-    color: yellow;
-    
+    color: yellow;    
     }
 .text2{
     padding-top: 0.2%;
@@ -75,39 +72,21 @@ left:0;
     padding-top: 1%;
     margin-left: 8%;
     font-family:Arial;
-    font-size: 24px;;
+    font-size: 3vw;;
     color: white;
     }
-    
-.background0{
- -ms-transform: rotate(0deg); /* IE 9 */
- transform: rotate(0deg);
- -ms-transform: rotate(-0deg);
-   opacity: 0.04;
-  position: absolute;
-  padding-top:30%;
-}
-.background1{
-  position: absolute;
-  padding-top: 44%;
-  padding-left: 20%;
+#wrapper{
+  position: relative;
+  height: 4000px;
+  
 }
 
-.background2{
+.background{
+  color: #999999;
   position: absolute;
-  padding-top: 73%;
-  padding-left: 57%;
-}
-.background3{
-  position: absolute;
-  padding-top:100%;
-  padding-left: 20%;
-}
- .background4{
-  transform: rotate(00deg);
-  position: absolute;
-  padding-top: 122%;
-  padding-left: 57%;
+  top: 0;
+  left: 0;
+  z-index: -100;
 }
 
 .about{
@@ -120,8 +99,6 @@ left:0;
     padding-right: 20%;
     text-align: center;
     background: #791FFF;
-    opacity: 0.8;
-    margin-top: 17.5%;
     padding-top: 4%;
    
     }
@@ -134,7 +111,13 @@ left:0;
     font-size: 20px;
     padding-right: 22%;
     }
-  
+
+ .picture1{
+  position: absolute;
+  margin-top: 5%;
+  padding-left: 20%;
+
+} 
 .charactor1{
     font-family:Arial;
     font-size: 18px;
@@ -142,8 +125,8 @@ left:0;
     color: #791FFF;
     padding-top: 7%;
     padding-left: 50%;
-    
     } 
+
 .fairerprice{
    font-family:Arial;
     text-align: justify; 
@@ -155,6 +138,11 @@ left:0;
   line-height: 160%;
   font-size: 20px;
    
+}
+.picture2{
+  position: absolute;
+  margin-top: 13%;
+  padding-left: 57%;
 }
 .charactor2{
     font-family:Arial;
@@ -175,6 +163,11 @@ left:0;
     line-height: 160%;
     font-size: 20px;
 }
+.picture3{
+  position: absolute;
+  margin-top:13%;
+  padding-left: 20%;
+}
 .charactor3{
     font-family:Arial;
     font-size: 18px;
@@ -192,8 +185,12 @@ left:0;
   padding-right:20%;
   color: #791FFF;
   line-height: 160%;
-  font-size: 20px;
-    
+  font-size: 20px;  
+}
+.picture4{
+  position: absolute;
+  margin-top:7%;
+  padding-left: 57%;   
 }
 .charactor4{
     font-family:Arial;
@@ -232,11 +229,14 @@ left:0;
     
     }
 .video{
+    width: 100%;
+    height: auto;
     object-position: center;
     padding-top: 5%;
     padding-bottom: 10%;
 }
 .followus{
+    
     position: relative;
     height: 305px;
     font-family:Arial;
@@ -273,25 +273,3 @@ left:0;
 }
 
 
-#wrapper{
-  position: relative;
-  width: 2000px;
-  height: 2000px;
-}
-
-.content{
-  color: #FFFFFF;
-  font-size: 26px;
-  font-weight: bold;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
-  position: relative;
-  z-index: 100;
-}
-
-.background{
-  color: #999999;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
-}
