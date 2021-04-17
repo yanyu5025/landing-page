@@ -50,14 +50,15 @@ top:0;
 left:0;
 }
 .text1{
-    height:120px;   
+      
     background: #791FFF;
     opacity: 0.8;
-    padding-top: 18%;
+    padding-top: 20%;
+    padding-bottom: 3%;
     padding-left: 30px;
     margin-left: 80px;
     font-family:Arial;
-    font-size: 100px;
+    font-size: 10vw;
     color: yellow;    
     }
 .text2{
@@ -72,12 +73,12 @@ left:0;
     padding-top: 1%;
     margin-left: 8%;
     font-family:Arial;
-    font-size: 3vw;;
+    font-size: 2vw;
     color: white;
     }
 #wrapper{
   position: relative;
-  height: 4000px;
+  height: 2000px;
   
 }
 
