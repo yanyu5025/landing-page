@@ -31,10 +31,10 @@ body{
   text-decoration:underline;
 }
 .navbar-logo{
-  padding-left:6.5%;
-  padding-top: 50px;
+  margin-top: 10px;
+  padding-left: 8%;
+  padding-top: 5%;
   font-family:Arial;
-  font-size:30px;
   font-weight:bold;
   text-decoration:none;
   color:#fff; 
